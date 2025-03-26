@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import "./SlideShow.css";
+import "../../src/componenets/Slideshow.css";
+
 
 const SlideShow = () => {
   const [films, setFilms] = useState([]);
